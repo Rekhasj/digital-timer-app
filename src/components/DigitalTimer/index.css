@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.timer-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 4px 16px 0px #defafe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #1e293b;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.timer-card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+}
+.digital-timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+p {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.circle-container {
+  background-color: #ffffff;
+  border-radius: 80px;
+  padding: 15px 40px;
+}
+
+.clock {
+  color: #00d9f5;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+.status {
+  color: #0f172a;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.digital-status-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+}
+.icon-button {
+  border: none;
+  background-color: transparent;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.icon-image {
+  height: 30px;
+  width: 30px;
+}
+.set-timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.set-button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+}
+.countdown {
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  padding: 5px 20px;
+  border-radius: 5px;
+}
